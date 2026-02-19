@@ -15,3 +15,7 @@ export async function apiGet(path) {
   
     return body;
   }
+
+export function getCustomers() {
+  return apiGet("/api/customers");
+}
