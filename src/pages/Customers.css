@@ -1,0 +1,190 @@
+.custPage {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .custCard {
+    width: min(980px, 96vw);
+    background: rgba(15, 21, 38, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    padding: 16px;
+  }
+  
+  .custHeader {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: baseline;
+    margin-bottom: 12px;
+  }
+  
+  .custH1 {
+    margin: 0;
+  }
+  
+  .custMuted,
+  .custMutedNote {
+    opacity: 0.8;
+  }
+  
+  .custSection {
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  
+  .custSectionTitle {
+    margin: 0 0 10px 0;
+  }
+  
+  .custRow {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .custSearchRow,
+  .custFormRow {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .custInput,
+  .custSelect {
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    background: rgba(0, 0, 0, 0.15);
+    color: inherit;
+    outline: none;
+  }
+  
+  .custBtn {
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    background: rgba(255, 255, 255, 0.08);
+    color: inherit;
+    cursor: pointer;
+  }
+  
+  .custBtn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .custBtn.danger {
+    border-color: rgba(255, 90, 90, 0.35);
+  }
+  
+  .custError {
+    color: #ff8a8a;
+  }
+  
+  .custList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .custItem {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    margin-top: 10px;
+  }
+  
+  .custItemBtn {
+    background: transparent;
+    border: none;
+    color: inherit;
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .custPill {
+    padding: 6px 10px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    opacity: 0.9;
+    white-space: nowrap;
+  }
+  
+  .custPager {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+  }
+  
+  .custOverlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    justify-content: flex-end;
+    z-index: 60;
+  }
+  
+  .custDrawer {
+    width: min(560px, 92vw);
+    height: 100%;
+    background: #0f1526;
+    border-left: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 16px;
+    overflow: auto;
+  }
+  
+  .custDrawerHeader {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .custDrawerTitle {
+    margin: 0;
+  }
+  
+  .custDrawerBody {
+    margin-top: 12px;
+  }
+  
+  .custBig {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .custH3 {
+    margin-top: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .custEditBox {
+    margin-top: 12px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.04);
+  }
+  
+  .custRentalLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .custRentalTitle {
+    font-weight: 600;
+  }

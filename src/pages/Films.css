@@ -1,0 +1,218 @@
+.filmsPage {
+  min-height: 100vh;
+  width: 100%;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0b0f19;
+  color: #e6e8ee;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.filmsCard {
+  width: min(1100px, 100%);
+  min-height: calc(100vh - 48px);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+  box-sizing: border-box;
+}
+
+.filmsHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.filmsH1 {
+  margin: 0;
+  font-size: 32px;
+  letter-spacing: 0.2px;
+}
+
+.filmsH3 {
+  margin: 0 0 6px 0;
+}
+
+.filmsH4 {
+  margin-top: 16px;
+}
+
+.filmsMuted {
+  opacity: 0.75;
+  font-size: 14px;
+}
+
+.filmsMutedNote {
+  opacity: 0.75;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.filmsSection {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255,255,255,0.10);
+}
+
+.filmsSectionTitle {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.filmsSearchRow {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filmsSelect {
+  padding: 10px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.06);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+.filmsInput {
+  flex: 1 1 280px;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.06);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.12);
+  box-sizing: border-box;
+}
+
+.filmsBtn {
+  appearance: none;
+  border: 1px solid rgba(255,255,255,0.16);
+  background: rgba(255,255,255,0.10);
+  color: #fff;
+  padding: 10px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.filmsBtn:hover {
+  background: rgba(255,255,255,0.16);
+}
+
+.filmsBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.filmsList {
+  margin: 12px 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.filmsItem {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.20);
+  align-items: center;
+}
+
+.filmsItemBtn {
+  all: unset;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.filmsItemBtn:hover {
+  text-decoration: underline;
+}
+
+.filmsPill {
+  opacity: 0.8;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.filmsError {
+  color: #ff6b6b;
+  margin: 10px 0 0 0;
+}
+
+.filmsPager {
+  margin-top: 14px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Drawer */
+.filmsOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  display: flex;
+  justify-content: flex-end;
+  z-index: 50;
+}
+
+.filmsDrawer {
+  width: min(520px, 92vw);
+  height: 100%;
+  background: #0f1526;
+  border-left: 1px solid rgba(255,255,255,0.12);
+  padding: 16px;
+  overflow: auto;
+}
+
+.filmsDrawerHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.filmsDrawerTitle {
+  margin: 0;
+}
+
+.filmsDrawerBody {
+  margin-top: 12px;
+}
+
+.filmsDescription {
+  white-space: pre-wrap;
+}
+
+.filmsActorName {
+  font-weight: 700;
+}
+
+.filmsRentRow {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.filmsSelect {
+  background: #0f1526;
+  color: #ffffff;
+}
+
+.filmsSelect option {
+  background: #0f1526;
+  color: #ffffff;
+}
